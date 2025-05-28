@@ -15,7 +15,6 @@ Users can:
  
 ### 📌 Key Learnings:
 
-- ✅ Implemented **strict input validation** (e.g., types like `str`, `int`, `float`).
 - ✅ Input validation with Pydantic
 - ✅ Used **Pydantic models (`BaseModel`)** to define request and response schemas.
 - ✅ Implemented **strict input validation** (e.g., types like `str`, `int`, `float`).
