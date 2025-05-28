@@ -12,7 +12,17 @@ Users can:
 - Add and categorize expenses
 - Retrieve expense data for tracking and analysis
 
-By leveraging FastAPI’s automatic documentation, developers and consumers of the API can easily test and understand endpoints via Swagger UI or ReDoc.
+ 
+### 📌 Key Learnings:
+
+- ✅ Implemented **strict input validation** (e.g., types like `str`, `int`, `float`).
+- ✅ Input validation with Pydantic
+- ✅ Used **Pydantic models (`BaseModel`)** to define request and response schemas.
+- ✅ Implemented **strict input validation** (e.g., types like `str`, `int`, `float`).
+- ✅ Applied **model inheritance** (e.g., `UserBase`, `UserCreate`, `User`) for clean and DRY schema design.
+- ✅ SQLAlchemy ORM integration with MySQL
+- ✅ Automatic API docs (Swagger + ReDoc)
+- ✅ User registration
 
 
 ## 🛠️ Setup Instructions
