@@ -99,11 +99,6 @@ You can test endpoints using:
 
 🔹 cURL
 
-# 🙌 Contributing
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you'd like to change.
-
-
 📌 Role of Pydantic
 Pydantic plays a crucial role in the API by enforcing type hints and validating data before it reaches your SQLAlchemy models.
 
@@ -119,4 +114,10 @@ This is an example of the payload expected for a category creation:
 🚫 Here incorrect input is passed  like this example (e.g., "id": "rr")  becuase ID is int & NAME is string. finally the input passed is wrong then , it will throw a error like:
 
 ![Image](https://github.com/user-attachments/assets/c38c3024-fb6d-43a7-9526-e48477329921)
+
+
+
+# 🙌 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you'd like to change.
  
